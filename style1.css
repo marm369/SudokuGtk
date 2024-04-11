@@ -1,0 +1,191 @@
+/* styles.css */
+
+/* Style pour le bouton "Nouveau jeu" */
+#nouveauJeuButton {
+    color: #335F8A;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-shadow: 1px 0px 10px wheat;
+    font-weight: bold; /* Utilisation de font-weight pour le style en gras */
+    border-width: 5px;
+    border-style: solid;
+    border-color: #335F8A; /* Couleur de la bordure */
+
+    /* Style au survol (hover) */
+    transition: background-color 0.3s ease-in-out;
+}
+
+#nouveauJeuButton:hover {
+
+    background-image: url("bleu.png");
+    color: white;
+}
+
+/* Style pour le bouton "Continuer jeu" */
+#continuerJeuButton {
+    color: #335F8A;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-shadow: 1px 0px 10px wheat;
+    font-weight: bold; /* Utilisation de font-weight pour le style en gras */
+    border-width: 5px;
+    border-style: solid;
+    border-color: #335F8A;
+
+    /* Style au survol (hover) */
+    transition: background-color 0.3s ease-in-out;
+}
+
+#continuerJeuButton:hover {
+    background-image: url("bleu.png"); /* Couleur de fond au survol */
+    color: white; /* Couleur du texte au survol */
+}
+/* styles.css */
+
+/* Style pour les boutons de difficulté */
+#difficultyButton {
+    color: #335F8A;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-shadow: 1px 0px 10px wheat;
+    font-weight: bold;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #335F8A;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#difficultyButton:hover {
+    background-image: url("bleu.png");
+    color: white;
+}
+#dialog1{
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: blur 10s ease-in-out infinite;
+    background-size: 500% 500%;
+}
+
+@keyframes blur {
+    0% {
+        background-position: 0% 0%;
+
+    }
+    50% {
+        background-position: 100% 100%;
+
+    }
+    100% {
+        background-position: 0% 0%;
+
+    }
+}
+#sep
+{
+
+    background-image: url("bleu.png");
+    min-width: 3px;  /* Pour les séparateurs verticaux */
+    min-height: 3px;  /* Pour les séparateurs horizontaux */
+}
+#home
+{
+    background-image: url("home.png");
+}
+#reset
+{
+    background-image: url("reset.png");
+}
+#hint
+{
+    background-image:url("hint.png") ;
+}
+#solution
+{
+    background-image: url("jigsaw.png");
+}
+#check
+{
+    background-image: url("search.png");
+}
+#save
+{
+    background-image: url("diskette.png");
+}
+
+#reset:hover,#solution:hover,#check:hover ,#hint:hover ,#home:hover,#save:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #335F8A;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#custom_dialog3{
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Arial";
+    animation: fadeIn 1.5s ease-out;
+}
+#custom_dialog2{
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Arial";
+    animation: fadeIn 1.5s ease-out;
+}
+#custom_dialog1 {
+    background-color: #2ecc71; /* Couleur verte pour indiquer que le sudoku est résolu avec succès */
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Arial";
+    animation: scaleIn 0.5s ease-in-out;
+}
+
+@keyframes scaleIn {
+    0% {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#entry-style1 {
+    color: #335F8A;
+    border-radius: 2px;
+    padding: 2px;
+    font-size: 25px;
+}
+#entry-style2 {
+    color: #8B4513;
+    font-size: 25px;
+}
+#entr{
+    color: #8B4513;
+    font-size: 25px;
+}
